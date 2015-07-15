@@ -1,51 +1,21 @@
 @import url(http://fonts.googleapis.com/css?family=Indie+Flower|Rock+Salt);
-h1{
-  color: red;
-  font-style: oblique;
+
+body {
   text-align: center;
-  border: 2px solid black;
-  transition: all 2s ;
-  box-shadow: 2px 2px 8px #333;
+  font-family:"Rock Salt";
+  background: rgb(262, 205, 30 );
 }
 
-h1:hover {
-  color:green;
-  opacity: .5;
-  box-shadow: 8px 8px 16px #333;
+header{
+  padding: 40px 40px;
+  background:rgb(232, 185, 0);
 }
 
-h2{
-  color: green;
-  font-size: 24px;
-  text-align: center;
+section1 {
+  text-align: left;
 }
-
-h3{
-  color: blue;
-  text-align: center;
-
-}
-
-h4{
-  color: yellow;
-  font-size: 50px;
-  text-align: center;
-}
-
-p{
-  text-align: center;
-}
-
-body{
-  font-family: 'Rock Salt';
-  background: #E8B900;
-}
-
 ul{
-  text-align: center;
-  margin: 0;
-}
-
-a{
-  text-align: center;
+  width: 200px;
+  margin:0 auto;
+  text-align: left;
 }
